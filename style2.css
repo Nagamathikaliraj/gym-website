@@ -1,0 +1,83 @@
+.page1{
+  background-image: url('workout.png');
+  height:120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+.rounded-navbar {
+  border-radius: 35px; 
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(185, 183, 183, 0.2);
+  background-color: black;
+  
+ 
+}
+.navbar-nav .nav-link {
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+  
+}
+
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.page2{
+  background-color: black;
+  height:200vh;
+  
+}
+.video{
+  padding: 200px;
+}
+.pics:hover {
+-ms-transform: scale(1.1); 
+-webkit-transform: scale(1.1); 
+transform: scale(1.1); 
+}
+
+.page3{
+  background-color: black;
+  height:210vh;
+}
+.mobile{
+  height: 500px;
+  width:300px;
+}
+.marquee-left {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: scroll-left 12s linear infinite;
+}
+
+.marquee-right {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: scroll-right 12s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
